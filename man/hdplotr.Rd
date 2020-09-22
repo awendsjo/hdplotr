@@ -21,10 +21,34 @@ hdplotr(
 )
 }
 \arguments{
-\item{save}{}
+\item{x}{x-axle}
+
+\item{y}{y-axle}
+
+\item{xlab}{label}
+
+\item{ylab}{label}
+
+\item{main}{label}
+
+\item{width}{size}
+
+\item{height}{size}
+
+\item{units}{unit}
+
+\item{resolution}{quality}
+
+\item{mfrow}{more pictures}
+
+\item{name}{save as}
+
+\item{format}{format}
+
+\item{save}{To save, or not to save}
 }
 \value{
-
+A picture.
 }
 \description{
 Lazy hd plotting
