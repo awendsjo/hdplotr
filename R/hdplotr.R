@@ -1,20 +1,20 @@
 #' Lazy hd plotting
 #'
-#' @param x
-#' @param y
-#' @param xlab
-#' @param ylab
-#' @param main
-#' @param width
-#' @param height
-#' @param units
-#' @param resolution
-#' @param mfrow
-#' @param name
-#' @param format
-#' @param save
+#' @param x x-axle
+#' @param y y-axle
+#' @param xlab label
+#' @param ylab label
+#' @param main label
+#' @param width size
+#' @param height size
+#' @param units unit
+#' @param resolution quality
+#' @param mfrow more pictures
+#' @param name save as
+#' @param format format
+#' @param save To save, or not to save
 #'
-#' @return
+#' @return A picture.
 #' @export
 #'
 #' @examples
