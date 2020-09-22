@@ -1,3 +1,23 @@
+#' Lazy hd plotting
+#'
+#' @param x
+#' @param y
+#' @param xlab
+#' @param ylab
+#' @param main
+#' @param width
+#' @param height
+#' @param units
+#' @param resolution
+#' @param mfrow
+#' @param name
+#' @param format
+#' @param save
+#'
+#' @return
+#' @export
+#'
+#' @examples
 hdplotr <- function(x,
                     y,
                     xlab="x",
@@ -10,7 +30,7 @@ hdplotr <- function(x,
                     mfrow=c(1,1),
                     name,
                     format="png",
-                    save=FALSE,){
+                    save=FALSE){
   if (save){
     if (missing(name)) stop("Error: What is the name of your file?")
     else
