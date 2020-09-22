@@ -1,13 +1,13 @@
 Package: hdplotr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Lazy hd plotting
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Albert Wendsjö
+Maintainer: The package maintainer <awendsjo@gmail.com>
+Description: I didn't want to write code for making hd plots, so I built a package.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
     base
+RoxygenNote: 7.1.1

@@ -37,7 +37,6 @@ hdplotr <- function(x,
       if (!format == "png") stop("I only work with png, sorry.")
     else
       name <- paste0(name,".png")
-    plot.new()
     png(name, width = width, height = height, units = units, res = resolution)
     par(mfrow=mfrow)
     plot(x=x,y=y,ylab=ylab,xlab=xlab,main=main)
