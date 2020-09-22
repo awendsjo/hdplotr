@@ -26,7 +26,7 @@ hdplotr <- function(x,
         dev.off()}
     else print("I only work with png, sorry.")}
 
-  else plotr()
+  else plot(x=x,y=y,ylab=ylab,xlab=xlab,main=main)
   abline(abline)
   if (!missing(legend)) legend("topleft", legend=legend,cex=0.1)
 }
